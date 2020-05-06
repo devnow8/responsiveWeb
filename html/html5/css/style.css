@@ -303,6 +303,45 @@ body {
     font-size: 10px;
 }
 
+/* 블로그 1 */
+.blog1 h5 {color: #fff; text-align: center; padding: 30px 30px; text-transform: upp
+}
+.blog1 p {padding-top: 5px;}
+.blog1 .img-retina {
+    background-image: url("../img/blog1_@1.jpg");
+    background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 2dppx) {
+        .blog1 .img-retina {background-image: url("../img/blog1_@2.jpg");}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+        only screen and (min-device-pixel-ratio: 3),
+        only screen and (min-resolution: 3dppx) {
+        .blog1 .img-retina {background-image: url("../img/blog1_@3.jpg");}
+}
+
+/* 블로그 2 */
+.blog2 h5 {color: #fff; text-align: center; padding: 30px 30px; text-transform: upp
+}
+.blog2 p {padding-top: 5px;}
+.blog2 .img-retina {
+    background-image: url("../img/blog3_@1.jpg");
+    background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 2dppx) {
+        .blog2 .img-retina {background-image: url("../img/blog3_@2.jpg");}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+        only screen and (min-device-pixel-ratio: 3),
+        only screen and (min-resolution: 3dppx) {
+        .blog2 .img-retina {background-image: url("../img/blog3_@3.jpg");}
+}
+
 /* 미디어쿼리 */
 /* 화면너비 0~1220px */
 @media (max-width : 1220px) {
